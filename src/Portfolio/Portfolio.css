@@ -1,0 +1,31 @@
+.portfolio {
+	padding: 5%;
+}
+
+.card-container {
+	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 3rem 2rem;
+}
+
+.card-container > * {
+	text-align: center;
+	text-transform: uppercase;
+	width: 25%;
+	padding: 5rem 2rem;
+	font-weight: 700;
+	color: white;
+	box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
+}
+
+.card-container > :nth-child(odd) {
+	background-color: #999;
+	text-shadow: 1px 1px #f8f8f8;
+}
+
+.card-container > :nth-child(even) {
+	background-color: #333;
+	text-shadow: 1px 1px #c4c4c4;
+}

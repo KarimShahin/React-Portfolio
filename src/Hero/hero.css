@@ -1,0 +1,19 @@
+.hero {
+	background-image: url("./../../public/PP.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: black;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	padding-left: 5rem;
+	color: white;
+}
+.hero > div {
+	width: 25%;
+	text-align: center;
+}
+
+.hero > div > h3 {
+	margin: 1rem 0 2rem;
+}

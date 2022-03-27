@@ -1,0 +1,36 @@
+.footer {
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5%;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+}
+
+.details > h4 {
+	text-transform: uppercase;
+	padding-bottom: 1em;
+}
+
+.details > p {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	gap: 0.4em;
+}

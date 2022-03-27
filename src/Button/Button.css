@@ -1,0 +1,18 @@
+.dark {
+	padding: 0.5em 0.9em;
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.light {
+	padding: 0.5em 0.9em;
+	background-color: #444;
+	color: white;
+	border: 0;
+	text-transform: capitalize;
+	text-decoration: none;
+}
